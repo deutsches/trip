@@ -1,0 +1,178 @@
+body {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.selectArea {
+    margin-top: 55px;
+    margin-bottom: 44px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.locationSelect {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    margin-right: 30px;
+}
+
+.searchResult {
+    font: normal normal 16px/22px Noto Sans;
+    color: #818A91;
+}
+
+.ticketLists {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ticketLists li {
+    position: relative;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-right: 30px;
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+
+/*
+.ticketLists li img{
+    width: 350px;
+}*/
+
+.ticketContent {
+    padding: 20px;
+}
+
+.ticketContent p {
+    font: normal normal normal 16px/24px Noto Sans;
+}
+
+.titcketHeader {
+    color: #00807E;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #007572;
+    margin-bottom: 16px;
+    font: normal normal 24px/33px Noto Sans;
+    font-weight: bolder;
+}
+
+.titcketRating {
+    position: absolute;
+    background: #00807E 0% 0% no-repeat padding-box;
+    padding: 5px 8px 5px 8px;
+    color: white;
+    top: 220px;
+    font: normal normal 16px/22px Noto Sans;
+}
+
+.titcketLocation {
+    position: absolute;
+    background: #64C3BF 0% 0% no-repeat padding-box;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    top: -12px;
+}
+
+.titcketBottom {
+    display: flex;
+    justify-content: space-between;
+    color: #00807E;
+    align-items: center;
+    font: normal normal 16px/22px Noto Sans;
+    font-weight: bolder;
+}
+
+.titcketPrice {
+    display: flex;
+    align-items: center;
+}
+
+.titcketPrice span {
+    font-size: 32px;
+    line-height: 43px;
+    margin-left: 4px;
+}
+
+.topArea {
+    display: flex;
+    width: 920px;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top:60px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.topArea>div {
+    width: 350px;
+    margin-right: 30px;
+}
+
+.inputHeader {
+    margin-bottom: 32px;
+    border-bottom: 3px solid #00807E;
+    color: #00807E;
+    font: normal normal bold 24px/33px Noto Sans;
+}
+.inputHeader i{
+    margin-right: 6px;
+}
+form label {
+    color: #00807E;
+    margin-right: 30px;
+    font: normal normal medium 16px/22px Noto Sans;
+}
+form select{
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    width: 255px;
+    height: 38px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    border-bottom: 1px solid #64C3BF;
+    color: #818A91;
+}
+form input {
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    width: 241px;
+    height: 21px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    border-bottom: 1px solid #64C3BF;
+    color: #818A91;
+}
+
+form div {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+form textarea {
+    padding-top: 8px;
+    padding-left: 12px;
+    width: 240px;
+    height: 111px;
+    border-bottom: 1px solid #64C3BF;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+}
+.submit {
+     display: flex; 
+     justify-content: flex-end; 
+}
+.submit input {
+    text-align: center;
+    background: #00807E 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    width: 160px;
+    height: 48px;
+    color: white;
+    font: normal normal normal 20px/25px Noto Sans;
+}
+.submit input:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #00807E;
+}
