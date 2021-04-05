@@ -19,12 +19,14 @@ function insertData() {
     }
     if (checkData(data)) {
         datas.push(data);
+        renderLists();
+        renderDount();
     }
     cleanInput();
 }
 //新增完後刪除
 function cleanInput() {
-    document.querySelector("#ticketName").valu = "";
+    document.querySelector("#ticketName").value = "";
     document.querySelector("#url").value = "";
     document.querySelector("#location").value = "";
     document.querySelector("#ticketDescription").value = "";

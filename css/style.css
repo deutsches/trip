@@ -47,10 +47,11 @@
     margin-bottom: 30px;
 }
 
-/*
+
 .ticketLists li img{
     width: 350px;
-}*/
+    height: 230px;
+}
 
 .ticketContent {
     padding: 20px;
