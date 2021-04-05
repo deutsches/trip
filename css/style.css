@@ -1,16 +1,26 @@
-body {
-    margin: 0 auto;
-    width: 1140px;
-}
 
+.bottomArea{
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+}
+.bottomArea>div{
+    width: 1140px;
+    margin: 0 auto;
+}
 .selectArea {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.selectArea>div{
     margin-top: 55px;
     margin-bottom: 44px;
     margin-left: 100px;
     display: flex;
     align-items: center;
 }
-
 .locationSelect {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -29,6 +39,7 @@ body {
 }
 
 .ticketLists li {
+    background: #F7F7F7 0% 0% no-repeat padding-box;
     position: relative;
     box-shadow: 0px 3px 6px #00000029;
     margin-right: 30px;
@@ -96,6 +107,7 @@ body {
 }
 
 .topArea {
+    width: 1140px;
     display: flex;
     width: 920px;
     margin: 0 auto;
